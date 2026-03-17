@@ -3,25 +3,38 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --accent: #22d3ee;
+  --muted: #888888;
+  --card: #111111;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #22d3ee44;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22d3ee99;
+}
+
+/* Selection highlight */
+::selection {
+  background: #22d3ee33;
+  color: #22d3ee;
 }
