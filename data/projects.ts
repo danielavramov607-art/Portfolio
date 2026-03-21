@@ -29,13 +29,12 @@ export const projects: Project[] = [
     inProgress: true,
   },
   {
-    id: "devops-dashboard",
-    title: "DevOps Dashboard",
+    id: "taskflow",
+    title: "TaskFlow",
     description:
-      "An internal monitoring dashboard for tracking deployment pipelines, server health, and application metrics in real time. Containerised with Docker for easy self-hosting.",
-    techTags: ["React", "Express", "Docker", "Tailwind CSS", "Chart.js"],
-    githubUrl: "#",
-    liveDemoUrl: "#",
-    inProgress: true,
+      "A real-time collaborative task management app inspired by Linear/Trello. Features a GraphQL API with WebSocket subscriptions for live updates across tabs, drag-and-drop Kanban boards, role-based access control (Owner/Editor/Viewer), Google OAuth, threaded comments, file attachments via Cloudinary, and a full notification system. Containerised with Docker.",
+    techTags: ["React", "TypeScript", "GraphQL", "Apollo", "Node.js", "MongoDB", "Docker"],
+    githubUrl: "https://github.com/danielavramov607-art/TaskFlow",
+    liveDemoUrl: "https://task-flow-tan-one.vercel.app/",
   },
 ];

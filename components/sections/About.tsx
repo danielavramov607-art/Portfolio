@@ -2,9 +2,9 @@ import Image from "next/image";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 
 const stats = [
-  { label: "Years Experience", value: "3+" },
-  { label: "Projects Shipped", value: "20+" },
-  { label: "Technologies", value: "12+" },
+  { label: "Years Experience", value: "1+" },
+  { label: "Projects Shipped", value: "10+" },
+  { label: "Technologies", value: "10+" },
 ];
 
 export default function About() {
