@@ -88,7 +88,7 @@ export default function Hero() {
             Contact Me
           </a>
           <a
-            href="/Daniel-Avramov-CV.pdf"
+            href="/Daniel_Avramov.pdf"
             download
             className="flex items-center justify-center gap-2 px-8 py-3 rounded-xl border border-white/20 text-muted font-semibold hover:border-white/40 hover:text-foreground transition-colors duration-200"
           >
