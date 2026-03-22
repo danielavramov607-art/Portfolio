@@ -37,9 +37,10 @@ export default function About() {
                 I thrive on solving hard problems and shipping great software.
               </p>
               <p className="text-muted leading-relaxed">
-                When I&apos;m not coding, you&apos;ll find me exploring new
-                technologies, contributing to open source, or reading about
-                software architecture.
+                Currently based in Dresden, Germany, and actively looking for
+                opportunities abroad. I&apos;m open to relocation and excited
+                about joining international teams where I can keep growing as a
+                developer.
               </p>
 
               {/* Quick stats */}

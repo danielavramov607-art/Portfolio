@@ -58,9 +58,16 @@ export default function Hero() {
 
         <motion.p
           variants={itemVariants}
-          className="text-xl sm:text-2xl text-muted font-light mb-6"
+          className="text-xl sm:text-2xl text-muted font-light mb-2"
         >
           Full Stack Developer
+        </motion.p>
+
+        <motion.p
+          variants={itemVariants}
+          className="text-sm text-muted/60 mb-6 tracking-wide"
+        >
+          Dresden, Germany &middot; Open to relocation
         </motion.p>
 
         <motion.p
