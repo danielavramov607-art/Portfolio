@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Daniel Avramov — Full Stack Developer",
+  title: "Daniel Avramov | Full Stack Developer",
   description:
     "Full Stack Developer specialising in React, Next.js, Node.js, TypeScript, PostgreSQL and MongoDB. Open to new opportunities.",
   keywords: [
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
     "Web Developer",
   ],
   openGraph: {
-    title: "Daniel Avramov — Full Stack Developer",
+    title: "Daniel Avramov | Full Stack Developer",
     description:
       "Full Stack Developer specialising in React, Next.js, Node.js, TypeScript, PostgreSQL and MongoDB.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Daniel Avramov — Full Stack Developer",
+    title: "Daniel Avramov | Full Stack Developer",
     description:
       "Full Stack Developer specialising in React, Next.js, Node.js, TypeScript, PostgreSQL and MongoDB.",
   },
